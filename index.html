@@ -17,42 +17,45 @@
         <div class="mt-5 mb-4">
             <h2>About Me</h2>
         </div>
-        <div class="d-flex flex-column mb-5 ">
-            <p>ณัฐนนท์ สุวราวรนาถ </p>
-            <p>คณะวิทยาศาสตร์และเทคโนโลยี </p>
-            <p> สาขาวิชาวิทยาการคอมพิวเตอร์ (Computer Science) </p>
-            <p> รหัสนักศึกษา6909617638</p>
-
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-md-4 text-center">
+                <img src="./media/me.jpeg" alt="รูปถ่ายเราเอง" class="img-fluid rounded-circle profile-img">
+            </div>
+            <div class="col-md-8">
+                <p class="mb-1"><strong>ณัฐนนท์ สุวราวรนาถ</strong></p>
+                <p class="mb-1">รหัสนักศึกษา 6909617638</p>
+                <p class="mb-1">คณะวิทยาศาสตร์และเทคโนโลยี</p>
+                <p class="mb-3">สาขาวิชาวิทยาการคอมพิวเตอร์ (Computer Science)</p>
+                <p class="mb-1"><strong>ความสนใจ:</strong> เล่นเกม ดูหนัง เล่นกีฬา และสนใจ AI โดยเฉพาะ Local AI</p>
+            </div>
         </div>
 
-        <h2 class="mt-5">Portfolio Item</h2>
+        <h2 class="mt-5">My Portfolio</h2>
         <div class="card portfolio-wrapper border-0 rounded-4">
             <div class="card-body row g-2 g-md-3">
                 <div class="col-md-6">
                     <div class="card h-100 bg-primary-subtle text-dark border-0 rounded-4 shadow-sm">
                         <div class="card-body p-4">
                             <div class="d-flex flex-column  mt-4">
-                                <p><strong>Title:</strong>CS100 Assignment</p>
+                                <p><strong>Title:</strong> CS100 A2: Individual Responsive Learning Portfolio</p>
                                 <p><strong>Type:</strong> Course Assignment</p>
                                 <p><strong>Date:</strong> 11 Oct 2026</p>
                                 <p><strong>Role:</strong> Individual Developer</p>
-                                <p><strong>Description:</strong> พัฒนาเว็บไซต์ Learning Portfolio หน้าเดียวด้วย HTML และ
-                                    CSS</p>
-                                <p><strong>Skills:</strong> HTML, CSS, Semantic HTML</p>
+                                <p><strong>Description:</strong> พัฒนาเว็บไซต์ Learning Portfolio หน้าเดียวด้วย HTML ,
+                                    CSS และBootstrap</p>
+                                <p><strong>Skills:</strong> HTML, CSS, Semantic HTML, Bootstrap,Git/GitHub</p>
                                 <p><strong>Reflection:</strong>
-                                    ตอนทำ My First Learning Portfolio ผมได้ลองสร้างหน้าเว็บแนะนำตัวด้วย HTML
-                                    แล้วเชื่อมไฟล์ CSS
-                                    ภายนอกเพื่อแต่งหน้าเว็บ
-                                    จนเข้าใจว่า HTML กับ CSS ทำงานร่วมกันยังไง
-                                    ตอนแรกหน้าเว็บแสดงผลไม่ตรงกับที่คิด
-                                    ผมเลยเปิด DevTools ดูว่าปัญหาอยู่ตรงไหนแล้วค่อย ๆ แก้ทีละจุด
-                                    และใช้ Bootstrap จัดหน้าให้เป็นระเบียบกว่าเดิม
-                                    ถ้าพัฒนาต่อ อยากปรับหน้าเว็บให้ดูดี
-                                    และใช้งานบนมือถือได้ดีขึ้น</p>
+                                    ตอนทำงานนี้ผมได้ปรับหน้าเว็บจาก A1 มาใช้ Bootstrap โดยใช้ container, grid และ card
+                                    จัดหน้าให้แสดงผลได้ทั้งบนคอมพิวเตอร์และมือถือ รวมถึงฝึกทำงานตาม GitHub Issues แล้ว
+                                    commit และ push ขึ้น GitHub Pages ปัญหาที่เจอคือตอนแรก card
+                                    สองใบสูงไม่เท่ากันและรูปล้นกรอบเมื่อย่อหน้าจอ ผมจึงลองใช้ h-100 กับ img-fluid
+                                    แล้วย่อขยายหน้าต่างดูผลทีละครั้ง จนเข้าใจว่า grid กับ utility class ของ Bootstrap
+                                    ช่วยให้หน้าเว็บปรับตามขนาดจอได้ ครั้งต่อไปอยากลองปรับสีและฟอนต์ให้เป็นสไตล์ของตัวเอง
+                                    และเพิ่มผลงานใหม่ ๆ เข้าไป</p>
                             </div>
-                            <p><strong>Evidence:</strong> GitHub Repository <a
-                                    href="https://natthanon690.github.io/A2_6909617638/">My First
-                                    Learning Portfolio</a></p>
+                            <p><strong>Evidence:</strong> <br>GitHub Repository <a
+                                    href="https://github.com/natthanon690/A2_6909617638">Click Here</a><br>
+                                My web <a href="https://natthanon690.github.io/A2_6909617638/">Click Here</a></p>
 
                             <img src="./media/github.png" alt="git photo" class="img-fluid">
 
@@ -67,8 +70,8 @@
                     <div class="card h-100 bg-primary-subtle text-dark border-0 rounded-4 shadow-sm">
                         <div class="card-body p-4">
                             <div class="d-flex flex-column  mt-4">
-                                <p><strong>Title:</strong>เข้าร่วมกิจกรรมAI Experience</p>
-                                <p><strong>Type:</strong>Activity</p>
+                                <p><strong>Title:</strong> เข้าร่วมกิจกรรม AI Experience</p>
+                                <p><strong>Type:</strong> Activity</p>
                                 <p><strong>Date:</strong> 4 Sep 2026</p>
                                 <p><strong>Role:</strong> Participant</p>
                                 <p><strong>Description:</strong> เข้าร่วมงานบรรยายเกี่ยวกับ AI ได้ฟังประโยชน์ของ AI
@@ -83,14 +86,14 @@
                                     และทำให้รู้ว่าต้องเลือกขนาดโมเดลให้เหมาะกับเครื่องที่มี ครั้งต่อไปอยากลองใช้ Ollama
                                     กับงานของตัวเอง เช่น ช่วยอธิบายโค้ดที่เรียนในวิชา</p>
                             </div>
-                            <p><strong>Evidence:</strong> GitHub Repository <a
-                                    href="https://natthanon690.github.io/A2_6909617638/">My First
-                                    Learning Portfolio</a></p>
+                            <p><strong>Evidence:</strong> </p>
 
                             <div class="row">
-                                <div class="col-6"><img src="./media/IMG_0588.jpeg" alt="git photo" class="img-fluid">
+                                <div class="col-6"><img src="./media/IMG_0588.jpeg" alt="บรรยากาศงาน AI Experience"
+                                        class="img-fluid">
                                 </div>
-                                <div class="col-6"><img src="./media/me.jpeg" alt="git photo" class="img-fluid"></div>
+                                <div class="col-6"><img src="./media/me.jpeg" alt="รูปตัวเอง AI Experience"
+                                        class="img-fluid"></div>
                             </div>
 
 
@@ -103,7 +106,7 @@
             </div>
         </div>
     </div>
-    </div>
+
 
 
 </body>
