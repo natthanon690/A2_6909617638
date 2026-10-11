@@ -14,14 +14,6 @@
 <body>
     <div class="container">
         <h1>My First Learning Portfolio</h1>
-        <div class="d-flex flex-column gap- mt-4">
-            <p><strong>Type:</strong> Course Assignment</p>
-            <p><strong>Date:</strong> 11 Oct 2026</p>
-            <p><strong>Role:</strong> Individual Developer</p>
-            <p><strong>Description:</strong> พัฒนาเว็บไซต์ Learning Portfolio หน้าเดียวด้วย HTML และ CSS</p>
-            <p><strong>Skills:</strong> HTML, CSS, Semantic HTML</p>
-
-        </div>
         <div class="mt-5 mb-4">
             <h2>About Me</h2>
         </div>
@@ -30,56 +22,89 @@
             <p>คณะวิทยาศาสตร์และเทคโนโลยี </p>
             <p> สาขาวิชาวิทยาการคอมพิวเตอร์ (Computer Science) </p>
             <p> รหัสนักศึกษา6909617638</p>
-           
+
         </div>
-        <h2>
-                Reflection
-            </h2>
-    
-            <p>
-                    ตอนทำ A1 ผมได้ลองสร้างหน้าเว็บแนะนำตัวด้วย HTML แล้วเชื่อมไฟล์ CSS ภายนอกเพื่อแต่งหน้าเว็บ จนเข้าใจว่า HTML
-                    กับ CSS ทำงานร่วมกันยังไง ตอนแรกหน้าเว็บแสดงผลไม่ตรงกับที่คิด ผมเลยเปิด DevTools
-                    ดูว่าปัญหาอยู่ตรงไหนแล้วค่อย ๆ แก้ทีละจุด ขั้นต่อไปอยากลองใช้ Bootstrap จัดหน้าให้เป็นระเบียบกว่าเดิม
-                    แล้วนำขึ้น GitHub Pages ให้คนอื่นเปิดดูได้
-                </p>
+
         <h2 class="mt-5">Portfolio Item</h2>
-        
-        <p>Evidence: <a href="https://natthanon690.github.io/A2_6909617638/">My First Learning Portfolio</a></p>
+        <div class="card portfolio-wrapper border-0 rounded-4">
+            <div class="card-body row g-2 g-md-3">
+                <div class="col-md-6">
+                    <div class="card h-100 bg-primary-subtle text-dark border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex flex-column  mt-4">
+                                <p><strong>Title:</strong>CS100 Assignment</p>
+                                <p><strong>Type:</strong> Course Assignment</p>
+                                <p><strong>Date:</strong> 11 Oct 2026</p>
+                                <p><strong>Role:</strong> Individual Developer</p>
+                                <p><strong>Description:</strong> พัฒนาเว็บไซต์ Learning Portfolio หน้าเดียวด้วย HTML และ
+                                    CSS</p>
+                                <p><strong>Skills:</strong> HTML, CSS, Semantic HTML</p>
+                                <p><strong>Reflection:</strong>
+                                    ตอนทำ My First Learning Portfolio ผมได้ลองสร้างหน้าเว็บแนะนำตัวด้วย HTML
+                                    แล้วเชื่อมไฟล์ CSS
+                                    ภายนอกเพื่อแต่งหน้าเว็บ
+                                    จนเข้าใจว่า HTML กับ CSS ทำงานร่วมกันยังไง
+                                    ตอนแรกหน้าเว็บแสดงผลไม่ตรงกับที่คิด
+                                    ผมเลยเปิด DevTools ดูว่าปัญหาอยู่ตรงไหนแล้วค่อย ๆ แก้ทีละจุด
+                                    และใช้ Bootstrap จัดหน้าให้เป็นระเบียบกว่าเดิม
+                                    ถ้าพัฒนาต่อ อยากปรับหน้าเว็บให้ดูดี
+                                    และใช้งานบนมือถือได้ดีขึ้น</p>
+                            </div>
+                            <p><strong>Evidence:</strong> GitHub Repository <a
+                                    href="https://natthanon690.github.io/A2_6909617638/">My First
+                                    Learning Portfolio</a></p>
+
+                            <img src="./media/github.png" alt="git photo" class="img-fluid">
 
 
-        <p>เว็บไซต์ประกอบด้วย 4 ส่วนหลัก ได้แก่</p>
-        <ul>
-            <li>About Me (แนะนำตัวเอง)</li>
-            <li>What I Built (อธิบายสิ่งที่สร้าง)</li>
-            <li>How I Built It(ขั้นตอนการพัฒนา)</li>
-            <li>Reflection (สะท้อนผลการเรียนรู้)</li>
-        </ul>
-        <p>
-            ในขณะที่เปิดเว็บไซต์จากเครื่องของตนเอง มี client หรือ server เกิดขึ้นแล้วหรือไม่:<br>
-            มีclientเกิดขึ้นแล้วแต่ยังไม่มีsever ในส่วนของclient programเกิดขึ้นตอนเปิดไฟล์ในเครื่องผ่านweb browser
-        </p>
-        <h2>How I Built It</h2>
-        <p>เว็บไซต์นี้พัฒนาตามขั้นตอนดังนี้</p>
-        <ol>
-            <li>วางโครงสร้าง HTML เริ่มจากสร้างโครงสร้างพื้นฐาน (&lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;,
-                &lt;body&gt;)<br> พร้อมตั้งค่า &lt;meta charset="UTF-8"&gt; และ &lt;meta name="viewport"&gt;<br>
-                เพื่อรองรับภาษาไทยและการแสดงผลบนมือถือ
-            </li><br>
-            <li>เพิ่มเนื้อหาและองค์ประกอบ ใส่ข้อความ รูปภาพ ลิงก์ และรายการ (list) ให้เหมาะสมกับแต่ละหัวข้อ</li><br>
-            <li>จัดรูปแบบด้วย CSS เชื่อมไฟล์ CSS ภายนอกเข้ากับ HTML ผ่าน &lt;link rel="stylesheet"&gt; แล้วกำหนดสี ฟอนต์
-                ระยะห่าง (margin/padding) และจัด layout ให้อ่านง่าย</li><br>
-            <li>ทดสอบและแก้ไขข้อผิดพลาด เปิดเว็บไซต์ผ่านเบราว์เซอร์ ตรวจสอบการแสดงผล และใช้ DevTools (Inspect)
-                เพื่อหาสาเหตุของปัญหา layout เช่น ระยะขอบที่ไม่ชิดตามต้องการ</li>
-        </ol>
-        <p>แหล่งข้อมูลอ้างอิง:<a href="https://www.w3schools.com"
-                style="color:cornflowerblue;">https://www.w3schools.com/css/</a></p>
-        <h2>Reflection</h2>
-        <p>ปัญหาที่พบคือการจัดระยะขอบ (margin) ของหน้าเว็บให้ได้ระยะตามที่ต้องการ จึงลองปรับค่าตัวเลขหลาย ๆ แบบ จนได้ค่า
-            px
-            ที่เหมาะสม</p>
-        <p>จากการทำ A1 นี้ ทำให้เข้าใจการใช้ border และการปรับ padding กับ margin มากขึ้น</p>
-        <p>หากมีโอกาสได้พัฒนางานนี้ต่อ อยากตกแต่งหน้าเว็บให้สวยงามมากขึ้น โดยนำความรู้ CSS ใหม่ ๆ มาประยุกต์ใช้</p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 bg-primary-subtle text-dark border-0 rounded-4 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex flex-column  mt-4">
+                                <p><strong>Title:</strong>เข้าร่วมกิจกรรมAI Experience</p>
+                                <p><strong>Type:</strong>Activity</p>
+                                <p><strong>Date:</strong> 4 Sep 2026</p>
+                                <p><strong>Role:</strong> Participant</p>
+                                <p><strong>Description:</strong> เข้าร่วมงานบรรยายเกี่ยวกับ AI ได้ฟังประโยชน์ของ AI
+                                    แต่ละตัวและเนื้อหาเชิงลึกเรื่อง Local AI พร้อมทำ workshop ใช้งาน Ollama</p>
+                                <p><strong>Skills:</strong> Local AI, Ollama, AI Awareness</p>
+                                <p><strong>Reflection:</strong>
+                                    ในงานนี้ผมได้ฟังบรรยายเรื่องประโยชน์ของ AI แต่ละตัว และเรื่อง Local AI
+                                    ที่รันในเครื่องของเราเอง จากนั้นได้ลงมือทำ workshop กับ Ollama ทำให้รู้ว่า AI
+                                    ไม่ได้ใช้ได้แค่ผ่านเว็บ แต่ติดตั้งและใช้บนเครื่องตัวเองได้ด้วย ปัญหาที่เจอคือการ์ดจอ
+                                    RTX 4050 ในเครื่องของผมรันโมเดลขนาดใหญ่ไม่ไหว ทำให้เครื่องค้าง
+                                    ผมจึงเปลี่ยนไปใช้โมเดลขนาดเล็กลงแทน ซึ่งรันได้ลื่นขึ้น
+                                    และทำให้รู้ว่าต้องเลือกขนาดโมเดลให้เหมาะกับเครื่องที่มี ครั้งต่อไปอยากลองใช้ Ollama
+                                    กับงานของตัวเอง เช่น ช่วยอธิบายโค้ดที่เรียนในวิชา</p>
+                            </div>
+                            <p><strong>Evidence:</strong> GitHub Repository <a
+                                    href="https://natthanon690.github.io/A2_6909617638/">My First
+                                    Learning Portfolio</a></p>
+
+                            <div class="row">
+                                <div class="col-6"><img src="./media/IMG_0588.jpeg" alt="git photo" class="img-fluid">
+                                </div>
+                                <div class="col-6"><img src="./media/me.jpeg" alt="git photo" class="img-fluid"></div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
+    </div>
+
 
 </body>
 
